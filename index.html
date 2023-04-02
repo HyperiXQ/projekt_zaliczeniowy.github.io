@@ -5,23 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekt zaliczeniowy</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
         <div id="nazwa">Rozwiązania egzaminów:<br>EE.09-02-19.06 STACJA PALIW oraz EE.09-05-20.06 SALON FRYZJERSKI</div>
         <div id="menu">
-            <button class="pliki" id="lista"><a href="egzamin.zip">PLIKI DO POBRANIA</a></button>
+            <!-- <button class="pliki" id="lista"><a href="egzamin.zip">PLIKI DO POBRANIA</a></button> -->
             <!-- onmouseover="lista()" onmouseleave="lista2()" -->
             <!-- <a href="definicja_kotwicy.zip">Pobierz plik</a> -->
-            <button class="autorzy"><a href="autorzy.html">AUTORZY</a></button>
-            <button class="kontakt"><a href="kontakt.html">KONTAKT</a></button>
+            <div class="dropdown">
+                <button class="pliki">PLIKI DO POBRANIA</button>
+                <div class="dropdown-content">
+                    <a href="downloads/stacja_paliw.zip" download>Stacja Paliw</a>
+                    <a href="downloads/salon_fryzjerski.zip" download>Salon Fryzjerski</a>
+                </div>
+            </div>
+            <button class="autorzy"><a href="additionals/autorzy.html">AUTORZY</a></button>
+            <button class="kontakt"><a href="additionals/kontakt.html">KONTAKT</a></button>
         </div>
     </header>
 
     <main>
         <div id="rozwiazanie">
             <div id="baner1">
-                <button id="myBtn" class="baner1"><p class="baner1_1">ROZWIĄZANIA</p></button>
+                <button id="rozwiazanie_btn" class="baner1"><p class="baner1_1">ROZWIĄZANIA</p></button>
                 <div id="myModal" class="modal">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -29,10 +37,8 @@
                     <h2 class="rozwiazania_header">Rozwiązania</h2>
                     </div>
                     <div class="modal-body">
-                    <!-- <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p> -->
-                    <button class="btn_stacja_paliw"><a href="stacja_paliw_rozwiazanie.html" class="btn_stacja_paliw_tekst">STACJA PALIW</a></button>
-                    <button class="btn_salon_fryzjerski"><a href="salon_fryzjerski_rozwiazanie.html" class="btn_salon_fryzjerski_tekst">SALON FRYZJERSKI</a></button>
+                    <button class="btn_stacja_paliw"><a href="rozwiazania/stacja_paliw_rozwiazanie.html" class="btn_stacja_paliw_tekst">STACJA PALIW</a></button>
+                    <button class="btn_salon_fryzjerski"><a href="rozwiazania/salon_fryzjerski_rozwiazanie.html" class="btn_salon_fryzjerski_tekst">SALON FRYZJERSKI</a></button>
                     </div>
                 </div>
 
@@ -43,7 +49,21 @@
             
         <div id="egzamin">
             <div id="baner2">
-                <a href="egzamin.html" class="baner2"><p class="baner2_1">EGZAMIN</p></a>
+                <!-- <a href="egzamin.html" class="baner2"><p class="baner2_1">EGZAMIN</p></a> -->
+                 <button id="egzamin_btn" class="baner2"><p class="baner2_1">EGZAMINY</p></button>
+                <div id="myModal2" class="modal2">
+                <div class="modal2-content">
+                    <div class="modal2-header">
+                    <span class="close2">&times;</span>
+                    <h2 class="egzaminy_header">Egzaminy</h2>
+                    </div>
+                    <div class="modal2-body">
+                    <button class="btn2_stacja_paliw"><a href="stacja_paliw_rozwiazanie.html" class="btn2_stacja_paliw_tekst">STACJA PALIW</a></button>
+                    <button class="btn2_salon_fryzjerski"><a href="salon_fryzjerski_rozwiazanie.html" class="btn2_salon_fryzjerski_tekst">SALON FRYZJERSKI</a></button>
+                    </div>
+                </div>
+
+                </div> 
             </div>
 
         </div>
@@ -52,31 +72,5 @@
     <footer>
         aaa
     </footer>
-    <script>
-        let modal = document.getElementById("myModal");
-
-        // Get the button that opens the modal
-        let btn = document.getElementById("myBtn");
-
-        // Get the <span> element that closes the modal
-        let span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-        modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-        modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-        }
-    </script>
 </body>
 </html>
