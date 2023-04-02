@@ -107,7 +107,7 @@ main {
 
 #baner1 {
     background: url('kod.jpg') no-repeat;
-    background-size: 80vh;
+    background-size: cover;
     margin: 10%;
     width: 80%;
     height: 60vh;
@@ -145,6 +145,7 @@ main {
 
 #baner2 {
     background: url('egzamin.jpg') no-repeat;
+    background-size: cover;
     margin: 10%;
     width: 80%;
     height: 60vh;
@@ -239,12 +240,13 @@ footer {
   padding: 2px 16px;
   background-color: #1a1a1a;
   color: white;
-  height: 15%;
+  height: 35px;
 }
 
 .rozwiazania_header, 
 .egzaminy_header {
     text-align: center;
+    margin-top: 3px;
 }
 
 .modal-body, 
@@ -263,6 +265,8 @@ footer {
     margin-top: 100px;
     display: flex;
     float: left;
+    position: absolute;
+    margin: 55px 10px 0px;
 }
 
 .btn_stacja_paliw_tekst, 
@@ -279,6 +283,9 @@ footer {
     margin-top: 100px;
     display: flex;
     float: right;
+    position: absolute;
+    left: 50%;
+    margin: 55px 10px 0px;
 }
 
 .btn_salon_fryzjerski_tekst, 
