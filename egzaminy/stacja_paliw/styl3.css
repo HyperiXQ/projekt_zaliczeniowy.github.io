@@ -1,0 +1,42 @@
+body {
+    font-family:"Helvetica";
+}
+
+#baner_lewy, 
+#left {
+    background-color: rgb(130,69,85);
+    color:white;
+    width:30%;
+    height:200px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+#baner_prawy, 
+#right {
+    background-color: rgb(130,69,85);
+    color:white;
+    width:70%;
+    height:200px;
+    text-align: center;
+    display: block;
+    float: right;
+}
+
+#main, 
+#stopka {
+    background-color: rgb(240, 234, 226);
+    padding:120px;
+}
+
+table, 
+td { 
+    border:solid 1px rgb(130,69,85);
+    color: rgb(130,69,85);
+    padding:10px;
+}
+
+a {
+    color:rgb(240, 234, 226);
+}
