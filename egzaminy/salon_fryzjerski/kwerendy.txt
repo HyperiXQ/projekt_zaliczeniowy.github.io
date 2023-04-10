@@ -1,0 +1,2 @@
+SELECT imie,nazwisko FROM kadra WHERE stanowisko="fryzjer";
+SELECT COUNT(nazwa) FROM uslugi;

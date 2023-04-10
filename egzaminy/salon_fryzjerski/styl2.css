@@ -1,0 +1,69 @@
+body {
+    font-family: "Helvetica";
+}
+
+#first_left{
+    height:400px;
+    width:70%;
+    background-color: Snow;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+#second_left{
+    height:400px;
+    width:70%;
+    background-color: Snow;
+    font-size:150%;
+    display: block;
+    float: left;
+}
+
+#first_right{
+    height:150px;
+    width:30%;
+    background-color: steelblue;
+    color:white;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+#second_right{
+    height:350px;
+    width:30%;
+    background-color: steelblue;
+    color:white;
+    display: block;
+    float: left;
+}
+
+#third_right{
+    height:300px;
+    width:30%;
+    background-color: snow;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+#footer{
+    background-color: steelblue;
+    color:white;
+    display: block;
+    float: left;
+}
+
+h2{
+    font-size:250%;
+}
+
+img{
+    padding:4px;
+}
+
+img:hover{
+    padding:3px;
+    border: solid 1px steelblue;
+}

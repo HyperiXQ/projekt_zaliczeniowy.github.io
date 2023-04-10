@@ -34,20 +34,19 @@
 </section>
 <script>
     function oblicz(){
-        let rodzaj=document.getElementById('rodzaj').value;
-        let ilosc=document.getElementById('ilosc').value;
-        // text = document.getElementById('text');
-        if(rodzaj==1){
-            let cena=ilosc*4;
-            document.getElementById("text").innerHTML =`koszt paliwa: ${cena} zł`;
+        let rodzaj = document.getElementById('rodzaj').value;
+        let ilosc = document.getElementById('ilosc').value;
+        if(rodzaj == 1){
+            let cena = ilosc * 4;
+            document.getElementById("text").innerHTML = `koszt paliwa: ${cena} zł`;
         }
-        else if(rodzaj==2){
-            let cena=ilosc*3.5;
-            document.getElementById("text").innerHTML =`koszt paliwa: ${cena} zł`;
+        else if(rodzaj == 2){
+            let cena = ilosc  * 3.5;
+            document.getElementById("text").innerHTML = `koszt paliwa: ${cena} zł`;
         }
         else{
-            let cena=0;
-            document.getElementById("text").innerHTML =`koszt paliwa: ${cena} zł`;
+            let cena = 0;
+            document.getElementById("text").innerHTML = `koszt paliwa: ${cena} zł`;
         }
     }
 </script>
