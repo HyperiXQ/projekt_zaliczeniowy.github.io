@@ -7,17 +7,8 @@ body {
     width:70%;
     background-color: Snow;
     text-align: center;
-    display: block;
     float: left;
-}
-
-#second_left{
-    height:400px;
-    width:70%;
-    background-color: Snow;
-    font-size:150%;
     display: block;
-    float: left;
 }
 
 #first_right{
@@ -26,17 +17,25 @@ body {
     background-color: steelblue;
     color:white;
     text-align: center;
+    float: right;
     display: block;
-    float: left;
 }
 
+#second_left{
+    height:400px;
+    width:70%;
+    background-color: Snow;
+    font-size:150%;
+    float: left;
+    display: block;
+}
 #second_right{
     height:350px;
     width:30%;
     background-color: steelblue;
     color:white;
+    float: right;
     display: block;
-    float: left;
 }
 
 #third_right{
@@ -44,15 +43,14 @@ body {
     width:30%;
     background-color: snow;
     text-align: center;
+    float: right;
     display: block;
-    float: left;
 }
 
 #footer{
     background-color: steelblue;
     color:white;
     display: block;
-    float: left;
 }
 
 h2{
