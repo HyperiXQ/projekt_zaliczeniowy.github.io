@@ -1,2 +1,4 @@
 SELECT imie,nazwisko FROM kadra WHERE stanowisko="fryzjer";
 SELECT COUNT(nazwa) FROM uslugi;
+CREATE USER 'fryzjer'@'localhost' IDENTIFIED BY 'Fryz12';
+GRANT SELECT, ALTER ON egzamin2.kadra TO fryzjer@localhost;
