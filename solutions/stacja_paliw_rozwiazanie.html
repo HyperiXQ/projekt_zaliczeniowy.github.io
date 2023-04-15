@@ -24,77 +24,76 @@
     </div>
     <div class="main">
         <h1>Stacja Paliw</h1><br>
-        <h2>Na samym początku należy wykonać zrzut ekranu po zaimportowaniu bazy danych. Zrzut powinien obejmować cały obszar ekranu, łącznie z paskiem zadań.</h2>
-        <img src="../egzaminy/stacja_paliw/import.png" style="width:1200px; height:600px" alt="import"><br>
-        <h2>Wykonujemy 4 poleceń sql i również udokumentowanie ich działania za pomocą zrzutów ekranu.</h2>
-        <p>Pierwsza kwerenda ma za zadanie wybrać pole marka i model z tabeli samochody, jeśli kolor samochodu jest czerwony.</p>
-        <img src="../egzaminy/stacja_paliw/kw1.jpg" style="width:1200px; height:600px" alt="kw1"><br>
-        <p>Druga kwerenda zmienia wartość pola stan na dobry dla samochodów, których rocznik jest równy 2003.</p>
-        <img src="../egzaminy/stacja_paliw/kw2.jpg" style="width:1200px; height:600px" alt="kw2"><br>
-        <p>Trzecie kwerenda tworzy użytkownia o nazwie andrzej i haśle andrzej1@.</p>
-        <img src="../egzaminy/stacja_paliw/kw3.jpg" style="width:1200px; height:600px" alt="kw3"><br>
-        <p>Ostatnia, czwarta kwerenda nadaje stworzonemu wcześniej użytkownikowi uprawnienia do przeglądania i zmieniania danych w tabeli samochody.</p>
-        <img src="../egzaminy/stacja_paliw/kw4.jpg" style="width:1200px; height:600px" alt="kw4"><br>
-        <h2>Następnym krokiem jest przeskalowanie zdjęcia.</h2>
-        <p>Zdjęcie skalujemy z zachowaniem proporcji i przezroczystości, tak aby wysokość zdjęcia wynosiła dokładnie 200px.</p>
-        <img src="stacja_paliw_zdjecia/samochodypng_przeskalowane.png" style="width:1200px; height:600px" alt="skalowanie_zdjecia"><br>
-        <h2>Przechodzimy do budowy całej struktury naszej strony.</h2>
-        <h3>Tworzymy 2 pliki o nazwach stacja.html oraz obliczenia.html. Pliki te mają różnić się tylko blokiem głównym.</h3>
-        <p>Otwieramy plik stacja.html i tworzymy podstawową strukturę każdej strony internetowej.</p>
-        <img src="stacja_paliw_zdjecia/1.png" alt="podstawowa_struktura_strony"><br>
+        <h2>Na samym początku należy wykonać zrzut ekranu po zaimportowaniu bazy danych. Zrzut powinien obejmować cały obszar ekranu, łącznie z paskiem zadań.</h2><br>
+        <img src="../egzaminy/stacja_paliw/import.png" alt="import" onclick="zdjecie()"><br><br>
+        <h2>Wykonujemy 4 poleceń sql i również udokumentowanie ich działania za pomocą zrzutów ekranu.</h2><br>
+        <p>Pierwsza kwerenda ma za zadanie wybrać pole marka i model z tabeli samochody, jeśli kolor samochodu jest czerwony.</p><br>
+        <img src="../egzaminy/stacja_paliw/kw1.jpg" alt="kw1"><br><br>
+        <p>Druga kwerenda zmienia wartość pola stan na dobry dla samochodów, których rocznik jest równy 2003.</p><br>
+        <img src="../egzaminy/stacja_paliw/kw2.jpg" alt="kw2"><br><br>
+        <p>Trzecie kwerenda tworzy użytkownia o nazwie andrzej i haśle andrzej1@.</p><br>
+        <img src="../egzaminy/stacja_paliw/kw3.jpg" alt="kw3"><br><br>
+        <p>Ostatnia, czwarta kwerenda nadaje stworzonemu wcześniej użytkownikowi uprawnienia do przeglądania i zmieniania danych w tabeli samochody.</p><br>
+        <img src="../egzaminy/stacja_paliw/kw4.jpg"  alt="kw4"><br><br>
+        <h2>Następnym krokiem jest przeskalowanie zdjęcia.</h2><br>
+        <p>Zdjęcie skalujemy z zachowaniem proporcji i przezroczystości, tak aby wysokość zdjęcia wynosiła dokładnie 200px.</p><br>
+        <img src="stacja_paliw_zdjecia/samochodypng_przeskalowane.png" alt="skalowanie_zdjecia"><br><br>
+        <h2>Przechodzimy do budowy całej struktury naszej strony.</h2><br>
+        <h3>Tworzymy 2 pliki o nazwach stacja.html oraz obliczenia.html. Pliki te mają różnić się tylko blokiem głównym.</h3><br>
+        <p>Otwieramy plik stacja.html i tworzymy podstawową strukturę każdej strony internetowej.</p><br>
+        <img src="stacja_paliw_zdjecia/1.png" alt="podstawowa_struktura_strony"><br><br>
         <p>Następnie stosujemy standard kodowania polskich znaków.</p>
-        <img src="stacja_paliw_zdjecia/2.png" alt="standard_kodowania_znakow"><br>
-        <p>Nadajemy stronie nazwy "Stacja paliw" oraz prawidłowe połączenie pliku o nazwie styl3.css z naszą stroną.</p>
-        <img src="stacja_paliw_zdjecia/3.png" alt="laczenie_arkusza_stylow"><br>
-        <p>Tworzymy podział strony na bloki: na górze baner lewy i prawy, poniżej blok główny, poniżej blok lewy i prawy oraz na samym dole stopka</p>
-        <img src="stacja_paliw_zdjecia/4.png" alt="podzial_strony"><br>
+        <img src="stacja_paliw_zdjecia/2.png" alt="standard_kodowania_znakow"><br><br>
+        <p>Nadajemy stronie nazwy "Stacja paliw" oraz prawidłowe połączenie pliku o nazwie styl3.css z naszą stroną.</p><br>
+        <img src="stacja_paliw_zdjecia/3.png" alt="laczenie_arkusza_stylow"><br><br>
+        <p>Tworzymy podział strony na bloki: na górze baner lewy i prawy, poniżej blok główny, poniżej blok lewy i prawy oraz na samym dole stopka</p><br>
+        <img src="stacja_paliw_zdjecia/4.png" alt="podzial_strony"><br><br>
         <p>Nastał czas wstawienie do naszych bloków zawartości. <br>
             Blok baner-lewy: nagłówek pierwszego stopnia "Stacja Paliw".<br>
             Blok baner-prawy: obraz home.png, który jest odnośnikiem do strony stacja.html oraz obraz znak.png, który jest odnośnikiem do strony obliczenia.html.<br>
             Blok lewy: odnośnik do pliku kwerendy.txt o treści "Pobierz kwerendy"<br>
             Blok prawy: obraz samochód.png z tekstem alternatywnym "samochód".<br>
             Stopka: akapit o treści "Stronę opracował: " dalej należy wstawić numer PESEL zdającego.
-        </p>
-        <img src="stacja_paliw_zdjecia/5.png" alt="szczegolowy_podzial_strony"><br>
-        <h3>Kopiujemy zawartość pliku stacja.html, przechodzimy do pliku obliczenia.html i wklejamy tam skopiowaną wcześniej treść</h3>
+        </p><br>
+        <img src="stacja_paliw_zdjecia/5.png" alt="szczegolowy_podzial_strony"><br><br>
+        <h3>Kopiujemy zawartość pliku stacja.html, przechodzimy do pliku obliczenia.html i wklejamy tam skopiowaną wcześniej treść</h3><br>
         <p>Wracamy do pliku stacja.html i w bloku głównym tworzymy nagłówek 3 stopnia z treścią "Godziny otwarcia stacji paliw" oraz tabelę 
             3x3, której komórki wypełnione są zgodnie z obrazem 2 w PDF'ie. 
-        </p>
-        <img src="stacja_paliw_zdjecia/6.png" alt="blok_glowny1"><br>
+        </p><br>
+        <img src="stacja_paliw_zdjecia/6.png" alt="blok_glowny1"><br><br>
         <p>Otwieramy plik obliczenia.html i tutaj również wypełniamy blok główny następującą treścią: nagłówek 3 stopnia z treścią "Oblicz koszt paliwa".<br>
             Pole edycyjne typu numerycznego, z napisem nad polem: "Rodzaj paliwa (1-benzyna, 2-olej napędowy):".<br>
             Pole edycyjne typu numerycznego z napisem nad polem: "Ile litrów".<br>
             Przycisk o treści "OBLICZ".
-        </p>
-        <img src="stacja_paliw_zdjecia/7.png" alt="blok_glowny2"><br>
-        <h2>Czas na utworzenie stylu do naszej strony.</h2>
-        <p>Ustawiamy dla całej strony domyślny krój czcionki Helvetica</p>
-        <img src="stacja_paliw_zdjecia/8.png" alt="kroj_czcionki"><br>
+        </p><br>
+        <img src="stacja_paliw_zdjecia/7.png" alt="blok_glowny2"><br><br>
+        <h2>Czas na utworzenie stylu do naszej strony.</h2><br>
+        <p>Ustawiamy dla całej strony domyślny krój czcionki Helvetica</p><br>
+        <img src="stacja_paliw_zdjecia/8.png" alt="kroj_czcionki"><br><br>
         <p>Nadajemy lewemu banerowi i lewemu blokowi następujące atrybuty stylu: kolor tła: rgb 130, 69, 85; kolor czcionki: biały; szerokość: 30%; wysokość: 200px 
             oraz wyrównanie tekstu do środka.
-        </p>
-        <img src="stacja_paliw_zdjecia/9.png" alt="left_baner_and_left"><br>
+        </p><br>
+        <img src="stacja_paliw_zdjecia/9.png" alt="left_baner_and_left"><br><br>
         <p>Nadajemy prawemu banerowi i prawemu blokowi następujące atrybuty stylu: kolor tła: rgb 130, 69, 85; kolor czcionki: biały; szerokość: 70%; wysokość: 200px 
             oraz wyrównanie tekstu do środka.
-        </p>
-        <img src="stacja_paliw_zdjecia/10.png" alt="right_baner_and_right"><br>
-        <p>Dla bloku głównego i stopki ustawiamy kolor tła: rgb 240, 234, 226; marginesy wewnętrzne: 120px;</p>
-        <img src="stacja_paliw_zdjecia/11.png" alt="header_and_footer"><br>
+        </p><br>
+        <img src="stacja_paliw_zdjecia/10.png" alt="right_baner_and_right"><br><br>
+        <p>Dla bloku głównego i stopki ustawiamy kolor tła: rgb 240, 234, 226; marginesy wewnętrzne: 120px;</p><br>
+        <img src="stacja_paliw_zdjecia/11.png" alt="header_and_footer"><br><br>
         <p>Dla znacznika tabeli i komórki tabeli ustawiamy obramowanie linią ciągłą o grubości 1px i kolorze rgb 130, 69, 85; 
-            kolor czcionki rgb 130, 69, 85; marginesy wewnętrzne: 10px</p>
-        <img src="stacja_paliw_zdjecia/12.png" alt="table"><br>
-        <p>Dla znacznika odnośnika ustawiamy kolor czcionki: rgb 240, 234, 226;</p>
-        <img src="stacja_paliw_zdjecia/13.png" alt="odnosnik"><br>
-        <h2>Ostatnim elementem budowy strony jest dodanie skryptu.</h2>
-        <p>Skrypt musi uruchamiać się po wciśnięciu przycisku OBLICZ na stronie obliczenia.html. </p>
-        <img src="stacja_paliw_zdjecia/14.png" alt="uruchamianie_skryptu"><br>
-        <p>Skrypt musi pobrać wartości z obó pól edycyjnych.</p>
-        <img src="stacja_paliw_zdjecia/15.png" alt="pobranie_wartosci"><br>
-        <p>Następnie skrypt oblicza koszty paliwa (gdy 1 to cena 4zł, gdy 2 to cena 3,5zł, w każdym innym razie cena to 0zł)</p>
-        <img src="stacja_paliw_zdjecia/16.png" alt="obliczenia"><br>
-        <p>Ostatnim krokiem jest wyświetlenie wyniku działania skryptu według wzoru: "Koszt paliwa: wartość zł", gdzie wartość oznacza obliczony koszt paliwa.</p>
-        <img src="stacja_paliw_zdjecia/17.png" alt="wyswietlanie_wyniku"><br>
+            kolor czcionki rgb 130, 69, 85; marginesy wewnętrzne: 10px</p><br>
+        <img src="stacja_paliw_zdjecia/12.png" alt="table"><br><br>
+        <p>Dla znacznika odnośnika ustawiamy kolor czcionki: rgb 240, 234, 226;</p><br>
+        <img src="stacja_paliw_zdjecia/13.png" alt="odnosnik"><br><br>
+        <h2>Ostatnim elementem budowy strony jest dodanie skryptu.</h2><br>
+        <p>Skrypt musi uruchamiać się po wciśnięciu przycisku OBLICZ na stronie obliczenia.html. </p><br>
+        <img src="stacja_paliw_zdjecia/14.png" alt="uruchamianie_skryptu"><br><br>
+        <p>Skrypt musi pobrać wartości z obó pól edycyjnych.</p><br>
+        <img src="stacja_paliw_zdjecia/15.png" alt="pobranie_wartosci"><br><br>
+        <p>Następnie skrypt oblicza koszty paliwa (gdy 1 to cena 4zł, gdy 2 to cena 3,5zł, w każdym innym razie cena to 0zł)</p><br>
+        <img src="stacja_paliw_zdjecia/16.png" alt="obliczenia"><br><br>
+        <p>Ostatnim krokiem jest wyświetlenie wyniku działania skryptu według wzoru: "Koszt paliwa: wartość zł", gdzie wartość oznacza obliczony koszt paliwa.</p><br>
+        <img src="stacja_paliw_zdjecia/17.png" alt="wyswietlanie_wyniku"><br><br>
     </div>
-    
 </body>
 </html>

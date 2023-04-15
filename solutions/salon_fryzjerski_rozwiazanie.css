@@ -89,3 +89,18 @@
     height: 85vh;
     background-color: #242424;
 }
+
+img {
+    height: 300px;
+    width: 500px;
+}
+
+img:hover {
+    padding-top: 100px;
+    cursor: zoom-in;
+    transform: scale(2.5);
+}
+
+p {
+    font-size: 20px;
+}
