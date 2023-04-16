@@ -104,7 +104,6 @@ p {
     font-size: 20px;
 }
 
-/* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
@@ -118,7 +117,6 @@ p {
   background-color: black;
 }
 
-/* Modal Content */
 .modal-content {
   position: relative;
   background-color: #fefefe;
@@ -126,10 +124,8 @@ p {
   padding: 0;
   width: 90%;
   max-width: 1200px;
-  /* height: 90%;   */
 }
 
-/* The Close Button */
 .close {
   color: white;
   position: absolute;
@@ -146,9 +142,9 @@ p {
   cursor: pointer;
 }
 
-/* Hide the slides by default */
 .mySlides {
-  display: none;
+  display: none;    
+  background-color: black;
 }
 
 .active {

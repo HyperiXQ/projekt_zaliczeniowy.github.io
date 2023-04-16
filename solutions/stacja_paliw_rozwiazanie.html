@@ -96,7 +96,6 @@
         <p>Ostatnim krokiem jest wyświetlenie wyniku działania skryptu według wzoru: "Koszt paliwa: wartość zł", gdzie wartość oznacza obliczony koszt paliwa.</p><br>
         <div class="column"><img src="stacja_paliw_zdjecia/17.png" alt="wyswietlanie_wyniku" onclick="openModal();currentSlide(23)" class="hover-shadow"></div><br><br>
     </div>
-        <!-- The Modal/Lightbox -->
         <div id="myModal" class="modal">
         <span class="close cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
@@ -216,7 +215,6 @@
             <img src="stacja_paliw_zdjecia/17.png" class="zoom">
             </div>
 
-            <!-- Caption text -->
             <div class="caption-container">
             <p id="caption"></p>
             </div>
@@ -225,17 +223,14 @@
         </div>
     </div>
     <script>
-// Open the Modal
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
-// Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
