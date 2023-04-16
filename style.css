@@ -179,18 +179,24 @@ footer {
     #menu{width: 425px; display: block;}
     .dropdown{display: block;}
     .modal{height: 100vh; width: 100%;}
+    main{width: 425px; height: 160vh; float: left;}
+    footer{width: 425px; height: 10vh; float: left;}
 }
 @media (min-width: 321px) and (max-width: 375px){
     header{width: 375px; height: 225px; margin: 0 auto; text-align: center;}
     #menu{width: 375px; display: block;}
     .dropdown{display: block;}
-    .modal{height: 100vh; width: 100%;}    
+    .modal{height: 100vh; width: 100%;}   
+    main{width: 375px; height: 160vh; float: left;}
+    footer{width: 375px; height: 10vh; float: left;} 
 }
 @media (max-width: 320px){
     header{width: 320px; height: 330px; margin: 0 auto; text-align: center;}
     #menu{width: 320px; display: block; margin-top: 20px;}
     .dropdown{display: block;}
     .modal{height: 100vh; width: 100%;}
+    main{width: 320px; height: 160vh; float: left;}
+    footer{width: 320px; height: 10vh; float: left;}
 }
 
 .modal, 
